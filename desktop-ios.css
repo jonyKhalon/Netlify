@@ -20,9 +20,7 @@ z-index: 10;}
 .pageHeaderMenuLink { flex: 5%; }
 .pageHeaderMenuSpace { flex: 67%; }
 .pageHeaderMenuSearch { flex: 10%; }
-.pageHeaderMenuLink a {
 
-}
 .pageHeaderMenu {
     background-color: rgba(94, 13, 13, 1);
     line-height: 60px;
@@ -131,7 +129,7 @@ z-index: 10;}
     background-color: rgba(94, 13, 13, 1);
     height: 60px;
   }
-  .pageHeaderMenu {
+  .pageHeaderMenu, .pageBodyLeft, .pageBodyRight {
     display:none;
   }
   .menu480 {
@@ -154,4 +152,12 @@ z-index: 10;}
     width: 20px;
     height: 20px;
   }
+
+  .pageBodyCenterBodyCard{
+  flex:40%;
+  }
+  .pageBodyCenterBody{
+  padding-bottom: 20px;
+  }
+
 }
